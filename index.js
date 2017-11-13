@@ -11,10 +11,10 @@ function BoardMember (name, homestate, training){
   this.doCharity = function(){
     console.log('I like to help people.');
   }
-  
+  this.releasePressStatement = function(){
+    console.log('You will see great things from Scuber.');
+  }
+  this.sayHi = function(){
+    console.log('Hi, my name is <name>. I am from <homestate>');
+  }
 }
-
-
-
-
-
