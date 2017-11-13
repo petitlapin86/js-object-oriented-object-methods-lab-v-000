@@ -1,7 +1,7 @@
 function BoardMember (name, homestate, training){
   this.name = name;
   this.homestate = homestate;
-  this.training = trainging;
+  this.training = training;
   this.veto = function(){
     console.log('No, I must disagree');
   }
@@ -18,4 +18,3 @@ function BoardMember (name, homestate, training){
     console.log('Hi, my name is <name>. I am from ${homestate} , and I was trained in ${training}.');
   }
 }
-
